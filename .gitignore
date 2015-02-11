@@ -1,0 +1,8 @@
+*~
+*.swp
+*.swo
+Session*.vim
+\#*\#
+*.o
+
+c-math
