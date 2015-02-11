@@ -14,5 +14,4 @@ void circle_area() {
 	printf("Area is: %f",a);
 	printf("\n");
 
-	return 0;
 }
