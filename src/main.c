@@ -12,7 +12,7 @@ void programs() {
 //	printf("parallelogram area\tpa\n");
 //	printf("triangle area\t\ttea\n");
 	printf("cylinder surface area\tcsa\n");
-//	printf("cylinder volume\t\tcv\n");
+	printf("cylinder volume\t\tcv\n");
 //	printf("sphere surface area\tssa\n");
 //	printf("sphere volume\t\tsv\n");
 	printf("circumference\t\tc\n");
@@ -46,9 +46,9 @@ int main() {
 			triangle_area();
 */		} else if (strcmp(program, "csa") == 0) {
 			cylinder_surface_area();
-/*		} else if (strcmp(program, "cv") == 0){
+		} else if (strcmp(program, "cv") == 0){
 			cylinder_volume();
-		} else if (strcmp(program, "ssa") == 0){
+/*		} else if (strcmp(program, "ssa") == 0){
 			sphere_surface_area();
 		} else if (strcmp(program, "sv") == 0){
 			sphere_volume();
