@@ -1,7 +1,7 @@
 #include <math.h>
 #include <stdio.h>
 
-int circle_area() {
+void circle_area() {
 
 	double pi = 3.141592654;
 	float r, a;
