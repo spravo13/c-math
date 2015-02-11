@@ -17,7 +17,7 @@ void programs() {
 //	printf("sphere volume\t\tsv\n");
 	printf("circumference\t\tc\n");
 	printf("arc length\t\tal\n");
-//	printf("sector area\t\tsa\n");
+	printf("sector area\t\tsa\n");
 //	printf("quadratic formula\tqf\n");
 
 	printf("\n");
@@ -56,9 +56,9 @@ int main() {
 			circumference();
 		} else if (strcmp(program, "al") == 0){
 			arc_length();
-/*		} else if (strcmp(program, "sa") == 0){
+		} else if (strcmp(program, "sa") == 0){
 			sector_area();
-		} else if (strcmp(program, "qf") == 0){
+/*		} else if (strcmp(program, "qf") == 0){
 			quadratic_formula();
 */		} else {
 			printf("That's not a program, type \"p\" for a list\n");

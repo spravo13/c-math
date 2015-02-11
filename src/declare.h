@@ -10,5 +10,5 @@ void cylinder_volume();
 //void sphere_volume();
 void circumference();
 void arc_length();
-//void sector_area();
+void sector_area();
 //void quadratic_formula();
