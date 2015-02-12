@@ -2,7 +2,7 @@
 A copy of cpp-math, though written in c.
 
 ## Installation
-Tested to work on Debian. It should work on any other GNU/Linux distro or unix-like system(Mac, BSD, dead badger, etc.)
+Tested to work on Debian. It should work on any other GNU/Linux distro or unix-like system(Mac, BSD, <a href="http://www.strangehorizons.com/2004/20040405/badger.shtml">Linux on a Dead Badger</a>, etc.)
 
 To compile type `make`
 
