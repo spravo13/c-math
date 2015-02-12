@@ -1,4 +1,4 @@
-//void degree_to_radian();
+void degree_to_radian();
 //void radian_to_degree();
 void circle_area();
 //void trapezoid_area();
