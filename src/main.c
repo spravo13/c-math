@@ -14,7 +14,7 @@ void programs() {
 	printf("cylinder surface area\tcsa\n");
 	printf("cylinder volume\t\tcv\n");
 	printf("sphere surface area\tssa\n");
-//	printf("sphere volume\t\tsv\n");
+	printf("sphere volume\t\tsv\n");
 	printf("circumference\t\tc\n");
 	printf("arc length\t\tal\n");
 	printf("sector area\t\tsa\n");
@@ -50,9 +50,9 @@ int main() {
 			cylinder_volume();
 		} else if (strcmp(program, "ssa") == 0){
 			sphere_surface_area();
-/*		} else if (strcmp(program, "sv") == 0){
+		} else if (strcmp(program, "sv") == 0){
 			sphere_volume();
-*/		} else if  (strcmp(program, "c") == 0){
+		} else if  (strcmp(program, "c") == 0){
 			circumference();
 		} else if (strcmp(program, "al") == 0){
 			arc_length();
