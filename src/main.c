@@ -8,7 +8,7 @@ void programs() {
 	printf("degree to radian\td2r\n");
 	printf("radian to degree\tr2d\n");
 	printf("circle area\t\tca\n");
-//	printf("trapezoid area\t\tta\n");
+	printf("trapezoid area\t\tta\n");
 	printf("parallelogram area\tpa\n");
 	printf("triangle area\t\ttea\n");
 	printf("cylinder surface area\tcsa\n");
@@ -38,9 +38,9 @@ int main() {
 			radian_to_degree();
 		} else if (strcmp(program, "ca") == 0) {
 			circle_area();
-/*		} else if (strcmp(program, "ta") == 0) {
+		} else if (strcmp(program, "ta") == 0) {
 			trapezoid_area();
-*/		} else if (strcmp(program, "pa") == 0) {
+		} else if (strcmp(program, "pa") == 0) {
 			parallelogram_area();
 		} else if (strcmp(program, "tea") == 0) {
 			triangle_area();
