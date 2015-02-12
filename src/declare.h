@@ -3,7 +3,7 @@ void degree_to_radian();
 void circle_area();
 //void trapezoid_area();
 void parallelogram_area();
-//void triangle_area();
+void triangle_area();
 void cylinder_surface_area();
 void cylinder_volume();
 //void sphere_surface_area();

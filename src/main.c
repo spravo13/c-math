@@ -10,7 +10,7 @@ void programs() {
 	printf("circle area\t\tca\n");
 //	printf("trapezoid area\t\tta\n");
 	printf("parallelogram area\tpa\n");
-//	printf("triangle area\t\ttea\n");
+	printf("triangle area\t\ttea\n");
 	printf("cylinder surface area\tcsa\n");
 	printf("cylinder volume\t\tcv\n");
 //	printf("sphere surface area\tssa\n");
@@ -42,9 +42,9 @@ int main() {
 			trapezoid_area();
 */		} else if (strcmp(program, "pa") == 0) {
 			parallelogram_area();
-/*		} else if (strcmp(program, "tea") == 0) {
+		} else if (strcmp(program, "tea") == 0) {
 			triangle_area();
-*/		} else if (strcmp(program, "csa") == 0) {
+		} else if (strcmp(program, "csa") == 0) {
 			cylinder_surface_area();
 		} else if (strcmp(program, "cv") == 0){
 			cylinder_volume();
