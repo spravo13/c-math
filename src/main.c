@@ -13,7 +13,7 @@ void programs() {
 	printf("triangle area\t\ttea\n");
 	printf("cylinder surface area\tcsa\n");
 	printf("cylinder volume\t\tcv\n");
-//	printf("sphere surface area\tssa\n");
+	printf("sphere surface area\tssa\n");
 //	printf("sphere volume\t\tsv\n");
 	printf("circumference\t\tc\n");
 	printf("arc length\t\tal\n");
@@ -48,9 +48,9 @@ int main() {
 			cylinder_surface_area();
 		} else if (strcmp(program, "cv") == 0){
 			cylinder_volume();
-/*		} else if (strcmp(program, "ssa") == 0){
+		} else if (strcmp(program, "ssa") == 0){
 			sphere_surface_area();
-		} else if (strcmp(program, "sv") == 0){
+/*		} else if (strcmp(program, "sv") == 0){
 			sphere_volume();
 */		} else if  (strcmp(program, "c") == 0){
 			circumference();
