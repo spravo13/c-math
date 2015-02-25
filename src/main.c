@@ -4,6 +4,7 @@
 #include "declare.h"
 
 void programs() {
+
 	printf("Program name\t\tCommand\n\n");
 	printf("degree to radian\td2r\n");
 	printf("radian to degree\tr2d\n");
@@ -19,11 +20,12 @@ void programs() {
 	printf("arc length\t\tal\n");
 	printf("sector area\t\tsa\n");
 	printf("quadratic formula\tqf\n");
-
 	printf("\n");
+
 }
 
 int main() {
+
 	char program[4];
 	while (strcmp(program, "q") != 0) {
 		printf("Select a program: ");
