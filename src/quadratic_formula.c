@@ -34,3 +34,4 @@ void quadratic_formula() {
 		}
 	}
 }
+

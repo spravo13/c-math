@@ -20,3 +20,4 @@ void sector_area() {
 		printf("\n");
 	}
 }
+

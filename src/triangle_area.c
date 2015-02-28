@@ -16,3 +16,4 @@ void triangle_area() {
 	printf("\n");
 
 }
+
