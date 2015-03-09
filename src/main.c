@@ -26,7 +26,7 @@ void programs() {
 
 int main() {
 
-	char program[4];
+	char program[3];
 	while (strcmp(program, "q") != 0) {
 		printf("Select a program: ");
 		scanf("%4s",program);
