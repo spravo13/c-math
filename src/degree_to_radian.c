@@ -3,13 +3,12 @@
 
 void degree_to_radian() {
 
-	const double pi = 3.141592654;
 	float d, r, rpi;
 
 	printf("Degrees: ");
 	scanf("%f",&d);
 
-	r = d*(pi/180);
+	r = d*(M_PI/180);
 	rpi = d/180;
 
 	printf("%f", r);

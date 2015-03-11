@@ -3,7 +3,6 @@
 
 void cylinder_volume() {
 
-	const double pi = 3.141529654;
 	float h, r, v;
 
 	printf("Height of cylinder: ");
@@ -11,7 +10,7 @@ void cylinder_volume() {
 	printf("Radius of cylinder: ");
 	scanf("%f",&r);
 
-	v = pi * r * r * h;
+	v = M_PI * r * r * h;
 
 	printf("Volume is: %f", v);
 	printf("\n");

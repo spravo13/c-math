@@ -3,13 +3,12 @@
 
 void circle_area() {
 
-	double pi = 3.141592654;
 	float r, a;
 
 	printf("Radius Length: ");
 	scanf("%f",&r);
 
-	a = r*r*pi;
+	a = r*r*M_PI;
 
 	printf("Area is: %f",a);
 	printf("\n");

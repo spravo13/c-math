@@ -3,13 +3,12 @@
 
 void circumference() {
 
-	const double pi = 3.141529654;
 	float d, c;
 
 	printf("Diameter Length: ");
 	scanf("&f",&d);
 
-	c = pi * d;
+	c = M_PI * d;
 
 	printf("circumference: %f",c);
 	printf("\n");
