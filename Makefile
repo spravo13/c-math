@@ -1,4 +1,4 @@
-CXX = gcc-4.7
+CXX = gcc-4.9
 EXE = c-math
 LIBS = -lm
 RM = rm -f
